@@ -1,0 +1,81 @@
+<!-- HEAD -->
+<section class="db-head">
+  <div class="cl-sec-kicker">공개 데이터 · OPEN INDEX</div>
+  <h1>신진 미술 가격 지수</h1>
+  <p class="sub">CanvasLab의 모든 실현 거래는 공개됩니다. 그동안 존재하지 않던 신진 작가 가격의 기준선을, 거래 데이터로 만듭니다.</p>
+</section>
+
+<!-- KPIs -->
+<section class="db-kpis">
+  <div class="db-kpi"><div class="n">₩8.4억</div><div class="l">누적 거래액</div><div class="d">▲ 전분기 +22%</div></div>
+  <div class="db-kpi"><div class="n">3,210</div><div class="l">누적 거래 건수</div><div class="d">▲ +18%</div></div>
+  <div class="db-kpi"><div class="n">₩261,000</div><div class="l">평균 거래가</div><div class="d">▲ +4.1%</div></div>
+  <div class="db-kpi"><div class="n">₩1,240만</div><div class="l">추급권 정산 누적</div><div class="d">2027.7 시행 대비</div></div>
+</section>
+
+<!-- CHARTS -->
+<section class="db-grid">
+  <!-- BAR -->
+  <div class="db-card">
+    <h3>월별 거래 건수</h3>
+    <div class="ch">2025.09 — 2026.05 · 졸업 전시 시즌 집중</div>
+    <div class="db-bars">
+      <div class="db-bcol"><span class="bv">120</span><div class="bar soft" style="height:48px"></div><span class="bl">09</span></div>
+      <div class="db-bcol"><span class="bv">165</span><div class="bar soft" style="height:66px"></div><span class="bl">10</span></div>
+      <div class="db-bcol"><span class="bv">280</span><div class="bar" style="height:112px"></div><span class="bl">11</span></div>
+      <div class="db-bcol"><span class="bv">355</span><div class="bar" style="height:142px"></div><span class="bl">12</span></div>
+      <div class="db-bcol"><span class="bv">420</span><div class="bar" style="height:168px"></div><span class="bl">01</span></div>
+      <div class="db-bcol"><span class="bv">390</span><div class="bar" style="height:156px"></div><span class="bl">02</span></div>
+      <div class="db-bcol"><span class="bv">300</span><div class="bar" style="height:120px"></div><span class="bl">03</span></div>
+      <div class="db-bcol"><span class="bv">260</span><div class="bar soft" style="height:104px"></div><span class="bl">04</span></div>
+      <div class="db-bcol"><span class="bv">310</span><div class="bar" style="height:124px"></div><span class="bl">05</span></div>
+    </div>
+  </div>
+
+  <!-- LINE -->
+  <div class="db-card">
+    <h3>가격 지수 추이</h3>
+    <div class="ch">기준 2025.09 = 100 · 전체 평균</div>
+    <svg class="db-line" viewBox="0 0 600 200" preserveAspectRatio="none">
+      <polygon class="area" points="20,150 90,140 160,124 230,128 300,108 370,96 440,99 510,80 580,70 580,190 20,190"/>
+      <polyline points="20,150 90,140 160,124 230,128 300,108 370,96 440,99 510,80 580,70"/>
+      <circle cx="20" cy="150" r="3.5"/><circle cx="90" cy="140" r="3.5"/><circle cx="160" cy="124" r="3.5"/>
+      <circle cx="230" cy="128" r="3.5"/><circle cx="300" cy="108" r="3.5"/><circle cx="370" cy="96" r="3.5"/>
+      <circle cx="440" cy="99" r="3.5"/><circle cx="510" cy="80" r="3.5"/><circle cx="580" cy="70" r="3.5"/>
+    </svg>
+    <div style="display:flex;justify-content:space-between;font-family:var(--mono);font-size:10px;color:var(--ink-faint);margin-top:10px;">
+      <span>09</span><span>11</span><span>01</span><span>03</span><span>05 · 지수 128.4</span>
+    </div>
+  </div>
+</section>
+
+<!-- 섹터 지수 -->
+<section class="db-index">
+  <div class="cl-sec-kicker">섹터별 가격 지수</div>
+  <table class="cl-table" style="margin-top:18px;">
+    <thead><tr><th>섹터</th><th>가격 지수</th><th>분기 등락</th><th>평균 거래가</th><th>거래 건수</th></tr></thead>
+    <tbody>
+      <tr><td>회화</td><td class="num">138.2</td><td class="db-ix-up">▲ +6.4%</td><td class="num">₩340,000</td><td class="num">1,420</td></tr>
+      <tr><td>가구·오브제</td><td class="num">131.7</td><td class="db-ix-up">▲ +5.2%</td><td class="num">₩290,000</td><td class="num">390</td></tr>
+      <tr><td>도자</td><td class="num">124.5</td><td class="db-ix-up">▲ +3.1%</td><td class="num">₩160,000</td><td class="num">680</td></tr>
+      <tr><td>주얼리·금속공예</td><td class="num">118.0</td><td class="db-ix-up">▲ +4.8%</td><td class="num">₩92,000</td><td class="num">510</td></tr>
+      <tr><td>판화·드로잉</td><td class="num">109.3</td><td class="db-ix-dn">▼ −1.2%</td><td class="num">₩70,000</td><td class="num">180</td></tr>
+    </tbody>
+  </table>
+</section>
+
+<!-- 최근 실거래 -->
+<section class="db-ledger">
+  <div class="cl-sec-kicker">최근 실거래 내역 · LIVE</div>
+  <table class="cl-table" style="margin-top:18px;">
+    <thead><tr><th>일자</th><th>작품</th><th>작가</th><th>섹터</th><th>유형</th><th>실거래가</th><th>추급권</th></tr></thead>
+    <tbody>
+      <tr><td>2026.05.28</td><td>도시의 밤</td><td>한지우</td><td>회화</td><td>원본 판매</td><td class="num">₩540,000</td><td class="num accent">대상</td></tr>
+      <tr><td>2026.05.28</td><td>여름의 잔상</td><td>김서연</td><td>회화</td><td>원본 판매</td><td class="num">₩320,000</td><td class="num accent">대상</td></tr>
+      <tr><td>2026.05.27</td><td>Stool 02</td><td>정우성</td><td>가구</td><td>원본 판매</td><td class="num">₩280,000</td><td class="num accent">대상</td></tr>
+      <tr><td>2026.05.27</td><td>무제 (그릇 연작)</td><td>이도현</td><td>도자</td><td>원본 판매</td><td class="num">₩140,000</td><td class="num accent">대상</td></tr>
+      <tr><td>2026.05.26</td><td>고요</td><td>최유나</td><td>도자</td><td>월 구독</td><td class="num">₩12,000/월</td><td class="num">—</td></tr>
+      <tr><td>2026.05.26</td><td>Ring No.7</td><td>박민지</td><td>주얼리</td><td>원본 판매</td><td class="num">₩98,000</td><td class="num accent">대상</td></tr>
+    </tbody>
+  </table>
+</section>
