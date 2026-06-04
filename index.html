@@ -540,7 +540,10 @@ section.blk {
   letter-spacing: .1em; align-self: flex-end; margin-bottom: 4px; white-space: nowrap;
 }
 .m-plate .prole {
-  margin-left: auto; font-family: var(--mono); font-size: 13px; font-weight: 700;
+  margin-left: auto; display: flex; flex-wrap: wrap; gap: 8px; justify-content: flex-end;
+}
+.m-plate .prole .rt {
+  font-family: var(--mono); font-size: 13px; font-weight: 700;
   letter-spacing: .04em; text-transform: uppercase; color: var(--muted);
   border: 1px solid var(--line-2); border-radius: 12px; padding: 7px 14px; white-space: nowrap;
 }
@@ -1071,11 +1074,11 @@ html.ra .reveal.in { opacity: 1; transform: none; }
         <div class="spotlay"></div>
         <div class="award-top">
           <div class="yr">2026<small>진행 중</small></div>
-          <h3>정부지원사업 ‘모두의창업’ 최종합격자 자격 검토</h3>
+          <h3>모두의창업 최종합격자 자격 검토</h3>
           <span class="award-badge">검토 단계</span>
         </div>
         <div class="award-body">
-          <div class="award-host">National Startup Support Program</div>
+          <div class="award-host">정부지원사업</div>
           <ul class="judge-pts">
             <li>
               <span class="jp-ico"><svg viewBox="0 0 24 24"><path d="M5 21V4"/><path d="M5 4h11l-2 3.5L16 11H5"/></svg></span>
@@ -1105,7 +1108,7 @@ html.ra .reveal.in { opacity: 1; transform: none; }
           <span class="pidx">01</span>
           <span class="pname">배명환</span>
           <span class="phan">BAE MYEONGHWAN</span>
-          <span class="prole">팀장 · 기획·디자인 · 데이터 분석</span>
+          <span class="prole"><span class="rt">팀장</span><span class="rt">기획·디자인</span><span class="rt">데이터 분석</span></span>
         </div>
         <div class="m-bento">
           <div class="cell c-face">
@@ -1185,7 +1188,7 @@ html.ra .reveal.in { opacity: 1; transform: none; }
           <span class="pidx">02</span>
           <span class="pname">양예림</span>
           <span class="phan">YANG YERIM</span>
-          <span class="prole">AI 모델 개발</span>
+          <span class="prole"><span class="rt">AI 모델 개발</span></span>
         </div>
         <div class="m-bento">
           <div class="cell c-face">
@@ -1244,7 +1247,7 @@ html.ra .reveal.in { opacity: 1; transform: none; }
           <span class="pidx">03</span>
           <span class="pname">문경민</span>
           <span class="phan">MUN GYEONGMIN</span>
-          <span class="prole">프로덕트 · 프론트엔드</span>
+          <span class="prole"><span class="rt">프로덕트</span><span class="rt">프론트엔드</span></span>
         </div>
         <div class="m-bento">
           <div class="cell c-face">
@@ -1302,7 +1305,7 @@ html.ra .reveal.in { opacity: 1; transform: none; }
           <span class="pidx">04</span>
           <span class="pname">이솔</span>
           <span class="phan">LEE SOL</span>
-          <span class="prole">백엔드 · 데이터 파이프라인</span>
+          <span class="prole"><span class="rt">백엔드</span><span class="rt">데이터 파이프라인</span></span>
         </div>
         <div class="m-bento">
           <div class="cell c-face">
